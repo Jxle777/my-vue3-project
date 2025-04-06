@@ -1,9 +1,43 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	"pages": [ 
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "注册账号"
+			}
+		},
+		{
+			"path": "pages/memo/index",
+			"style": {
+				"navigationBarTitleText": "备忘录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/memo/detail",
+			"style": {
+				"navigationBarTitleText": "备忘录详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/memo/edit",
+			"style": {
+				"navigationBarTitleText": "编辑备忘录",
+				"navigationStyle": "custom"
 			}
 		}
 	],
